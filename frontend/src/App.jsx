@@ -123,10 +123,12 @@ function App() {
 export default App
 */
 
-import logpage from "./pages/LogInteraction";
+import LogPage from "./pages/logpage";
 
 function App() {
-  return <logpage />;
+  return <LogPage />;
 }
 
 export default App;
+
+

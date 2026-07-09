@@ -1,6 +1,7 @@
 
 import { createSlice } from "@reduxjs/toolkit";
 
+/*
 const initialState = {
   hcpName: "",
   interactionType: "Meeting",
@@ -10,6 +11,20 @@ const initialState = {
   topics: "",
   materials: [],
   samples: [],
+  sentiment: "Neutral",
+  outcomes: "",
+  followUp: "",
+};*/
+
+const initialState = {
+  hcpName: "Dr. Smith",
+  interactionType: "Meeting",
+  date: "2025-11-29",
+  time: "19:36",
+  attendees: "",
+  topics: "Product X efficacy.",
+  materials: "Brochures",
+  samples: "",
   sentiment: "Neutral",
   outcomes: "",
   followUp: "",

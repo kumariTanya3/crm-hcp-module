@@ -1,8 +1,8 @@
 
 import { configureStore } from "@reduxjs/toolkit";
-import interactionReducer from "./slices/interactionSlice";
+import interactionReducer from "./slices/interaction";
 import chatReducer from "./slices/chatSlice";
-import uiReducer from "./slices/uiSlice";
+import uiReducer from "./slices/ui";
 
 export const store = configureStore({
   reducer: {
