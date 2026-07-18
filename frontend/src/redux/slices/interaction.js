@@ -1,7 +1,7 @@
 
 import { createSlice } from "@reduxjs/toolkit";
 
-/*
+
 const initialState = {
   hcpName: "",
   interactionType: "Meeting",
@@ -14,8 +14,9 @@ const initialState = {
   sentiment: "Neutral",
   outcomes: "",
   followUp: "",
-};*/
+};
 
+/*
 const initialState = {
   hcpName: "Dr. Smith",
   interactionType: "Meeting",
@@ -29,6 +30,7 @@ const initialState = {
   outcomes: "",
   followUp: "",
 };
+*/
 
 const interactionSlice = createSlice({
   name: "interaction",
@@ -47,7 +49,9 @@ const interactionSlice = createSlice({
   },
 });
 
-export const { updateInteraction, resetInteraction } =
-  interactionSlice.actions;
+export const { 
+  updateInteraction, 
+  resetInteraction 
+} = interactionSlice.actions;
 
 export default interactionSlice.reducer;

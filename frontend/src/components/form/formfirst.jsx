@@ -133,6 +133,162 @@ function FormFirst() {
               placeholder="AI-generated interaction outcome..."
               className="w-full rounded-lg border bg-gray-50 p-3"/>
             </div>
+            <div className="mt-6">
+
+<h3 className="font-semibold">
+
+Materials Shared / Samples Distributed
+
+</h3>
+
+<div className="mt-4 flex items-center justify-between">
+
+<p>
+
+Materials Shared
+
+</p>
+
+<button
+className="rounded border px-4 py-2">
+
+🔍 Search/Add
+
+</button>
+
+</div>
+
+<div className="mt-2 rounded border p-3 text-gray-400">
+
+No materials added.
+
+</div>
+
+</div>
+
+<div className="mt-5 flex items-center justify-between">
+
+<p>
+
+Samples Distributed
+
+</p>
+
+<button
+className="rounded border px-4 py-2">
+
+➕ Add Sample
+
+</button>
+
+</div>
+
+<div className="mt-2 rounded border p-3 text-gray-400">
+
+No samples added.
+
+</div>
+
+<div className="mt-6">
+
+<h3 className="font-semibold">
+
+Observed HCP Sentiment
+
+</h3>
+
+<div className="mt-3 flex gap-8">
+
+<label>
+
+<input
+type="radio"
+name="sentiment"
+/>
+
+ Positive
+
+</label>
+
+<label>
+
+<input
+type="radio"
+name="sentiment"
+/>
+
+ Neutral
+
+</label>
+
+<label>
+
+<input
+type="radio"
+name="sentiment"
+/>
+
+ Negative
+
+</label>
+
+</div>
+
+</div>
+
+<div className="mt-6">
+
+<label className="mb-2 block font-medium">
+
+Outcomes
+
+</label>
+
+<textarea
+rows={4}
+readOnly
+placeholder="Key outcomes or agreements..."
+className="w-full rounded-lg border bg-gray-50 p-3"
+/>
+
+</div>
+
+<div className="mt-6">
+
+<label className="mb-2 block font-medium">
+
+Outcomes
+
+</label>
+
+<textarea
+rows={4}
+readOnly
+placeholder="Key outcomes or agreements..."
+className="w-full rounded-lg border bg-gray-50 p-3"
+/>
+
+</div>
+
+<div className="mt-6 rounded-lg bg-blue-50 p-4">
+
+<p className="font-semibold">
+
+AI Suggested Follow-ups
+
+</p>
+
+<ul className="mt-2 list-disc pl-5 text-sm">
+
+<li>Schedule follow-up meeting in 2 weeks</li>
+
+<li>Send latest product brochure</li>
+
+<li>Add HCP to advisory board list</li>
+
+</ul>
+
+</div>
           </div>
         </div>
       </div>
